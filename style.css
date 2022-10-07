@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Area', sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: linear-gradient(to left bottom, #0059ff, #0000ff);
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers__api {
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0 0 10px 3px rgba(0, 4, 65, 0.663);
+    justify-content: space-between;
+    flex-direction: column;
+    border: 2px solid #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.numbers__api .btn__api {
+    display: flex;
+    margin: 0 0 20px 0;
+    justify-content: space-between;
+}
+
+.numbers__api .btn__api input {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.numbers__api .btn__api input {
+    width: 40%;
+    background: #fff;
+    border: none;
+}
+
+.numbers__api .btn__api input::placeholder {
+    color: #000;
+}
+
+.numbers__api .btn__api input[type="button"] {
+    width: 50%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.numbers__api button, .btn__api input[type="button"] {
+    background: #0000ff;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.numbers__api button:active, .btn__api input[type="button"]:active {
+    background: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px 4px rgb(54, 54, 54);
+}
+
+.numbers__api .random__generator {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.numbers__box {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    margin: 40px 0 0 0;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.63);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.numbers__box .number {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.numbers__box .paragraph {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+}
+.numbers__box .error {
+    color: #ff0000;
+}
